@@ -1,6 +1,10 @@
 import express from "express";
 import cors from "cors";
 import bodyParser from "body-parser";
+import mongoose from "mongoose";
+import dotenv from "dotenv";
+import { Singer, Song } from "./schema/index.js";
+dotenv.config();
 
 const app = express();
 
@@ -15,3 +19,4 @@ app.get("/ping", () => {
 app.listen(3000, () => {
   console.log("listening on port 3000");
 });
+
