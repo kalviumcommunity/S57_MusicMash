@@ -13,6 +13,8 @@ const App = () => {
           :
           <Home />
       } />
+      {/* kji e*/}
     </Routes>
-  )}
+  )
+}
 export default App
