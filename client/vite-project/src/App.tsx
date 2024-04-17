@@ -13,7 +13,7 @@ const App = () => {
           :
           <Home />
       } />
-      {/* kji e*/}
+      {/* kji ehytryf*/}
     </Routes>
   )
 }
