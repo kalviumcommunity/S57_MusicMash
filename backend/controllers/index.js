@@ -1,3 +1,6 @@
+import { Singer } from "../schema/index.js";
+import { Song } from "../schema/index.js";
+
 export const getSinger = async (req, res) => {
   const user = await Singer.find();
   return res.json(user);
